@@ -1,186 +1,259 @@
 ---
+
 # Display name
+
 title: Gagan Bhatia
 
 # Name pronunciation (optional)
+
 name_pronunciation: "Gagan Bhatia"
 
 # Full name (for SEO)
-first_name: Gagan 
+
+first_name: Gagan
 last_name: Bhatia
 
 # Status emoji
+
 status:
   icon: ☕️
 
 # Is this the primary user of the site?
+
 superuser: true
 
 # Highlight the author in author lists? (true/false)
+
 highlight_name: true
 
 # Role/position/tagline
+
 role: Chief Scientist
 
 # Organizations/Affiliations to display in Biography blox
+
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+
+- name: OpenAI
+    url: <https://openai.com/>
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder
+
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+
+- icon: at-symbol
+    url: 'mailto:gbhatia880@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+- icon: brands/github
+    url: <https://github.com/gagan3012>
+- icon: brands/linkedin
+    url: <https://linkedin.com/in/gaganbhatiaml/>
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+
+- Artificial Intelligence
+- Computational Linguistics
+- Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+- area: BASc. Electrical and Computer Engineering
+    institution: The University of British Columbia
+    date_start: 2018-01-01
+    date_end: 2022-12-31
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Completed a Bachelor's degree in Electrical and Computer Engineering, gaining strong foundations in machine learning, data science, and software development.
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+- position: Research Assistant
+    company_name: The University of British Columbia
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2022-09-01
+    date_end: 2024-09-01
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+  - Created Arabic handwriting recognition and Grammar correction models, improving results by 3 points compared to previous SOTA.
+  - Building LLMs based on low resource languages and improving current LLM evaluation methods.
+  - Developed PolyDeDupe, a Python package for efficient multilingual data deduplication, supporting over 100 languages.
+  - Working on building efficient LLMs for Healthcare, Social interaction, and financial usage using Llama 3 models.
+- position: Machine Learning Engineer
+    company_name: Xtract One
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-10-01
+    date_end: 2022-09-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - Designed the first Image Manipulation detection system using VIT and integrated it with Canadian defense systems.
+  - Built State-of-the-Art models for Image captioning, table recognition, OCR models and deployed them to AWS.
+  - Developed an NLP pipeline for fake news detection along with zero-shot topic modeling for analysis for the UN.
+- position: Software Engineer
+    company_name: UME Academy
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-01-01
+    date_end: 2022-04-01
+    summary: |
+      Responsibilities include:
+  - Developed AWS AppSync APIs to work with reinforcement learning agents in real-time.
+  - Updated the backend to use GraphQL instead of UDP and improved real-time performance by 33%.
+  - Improved performance of the system by 25% by speeding up all APIs using innovative data structures.
+- position: Software Engineer
+    company_name: Amazon Web Services
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-05-01
+    date_end: 2021-12-01
+    summary: |
+      Responsibilities include:
+  - Improved the AWS Lex API to generate better responses and improved user experience by 10%.
+  - Implemented models based on XGBoost to detect Heart failure symptoms from user-data.
+  - Improved BERT based text classification models to optimize them for large scale usage on AWS Sagemaker.
+- position: Research Assistant
+    company_name: Qatar Computing Research Institute
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-12-01
+    date_end: 2021-05-01
+    summary: |
+      Responsibilities include:
+  - Built an ML Classifier to classify phishing Cryptocurrency websites using Random Forest and comprehensive methods.
+  - Designed a Deep-Learning based LSTM system to enhance the model.
+- position: Machine Learning Engineer
+    company_name: Omdena
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-09-01
+    date_end: 2021-07-01
+    summary: |
+      Responsibilities include:
+  - Launched a Google Search Grants Analysis using Apify, SpaCy, Transformers, and GPT-2 Models.
+  - Designed a Content-based recommendation system using the Facebook StarSpace and FastText Word embeddings.
 
 # Skills
+
 # Add your own SVG icons to `assets/media/icons/`
+
 skills:
-  - name: Technical Skills
+
+- name: Technical Skills
     items:
-      - name: Python
+  - name: Python
+        description: ''
+        percent: 90
+        icon: code-bracket
+  - name: Data Science
+        description: ''
+        percent: 90
+        icon: chart-bar
+  - name: SQL
+        description: ''
+        percent: 80
+        icon: circle-stack
+  - name: Node.js
+        description: ''
+        percent: 70
+        icon: code-bracket
+  - name: C
+        description: ''
+        percent: 70
+        icon: code-bracket
+  - name: Golang
+        description: ''
+        percent: 60
+        icon: code-bracket
+  - name: PyTorch
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+  - name: React.js
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
+        percent: 70
+        icon: code-bracket
+  - name: Swift
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        icon: code-bracket
+  - name: SQL
         description: ''
         percent: 80
-        icon: camera
+        icon: circle-stack
+  - name: C++
+        description: ''
+        percent: 70
+        icon: code-bracket
+  - name: Java
+        description: ''
+        percent: 70
+        icon: code-bracket
+  - name: MongoDB
+        description: ''
+        percent: 70
+        icon: database
+  - name: Git
+        description: ''
+        percent: 80
+        icon: git
+  - name: CUDA
+        description: ''
+        percent: 70
+        icon: code-bracket
+  - name: Transformers
+        description: ''
+        percent: 80
+        icon: code-bracket
+  - name: Azure
+        description: ''
+        percent: 70
+        icon: cloud
+  - name: TensorFlow
+        description: ''
+        percent: 80
+        icon: code-bracket
+  - name: Jax
+        description: ''
+        percent: 60
+        icon: code-bracket
+  - name: LLMs
+        description: ''
+        percent: 80
+        icon: brain
+  - name: AWS
+        description: ''
+        percent: 90
+        icon: cloud
+  - name: GCP
+        description: ''
+        percent: 70
+        icon: cloud
 
 languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+- name: English
+    percent: 100
+
+# Awards
+
+# Add/remove as many awards below as you like
+
+# Only `title`, `awarder`, and `date` are required
+
+# Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below
+
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+
+- title: AWS Certified ML Developer
+    date: '2023-10-01'
+    awarder: Amazon Web Services
+- title: GitHub Campus Expert
+    date: '2021-01-01'
+    awarder: GitHub
+
+
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Gagan Bhatia is a Chief Scientist at OpenAI with extensive experience in machine learning, artificial intelligence, and software engineering. He has developed and deployed state-of-the-art models and systems for various applications, including healthcare, finance, and social interaction. Gagan holds a BASc. in Electrical and Computer Engineering from The University of British Columbia and has worked on groundbreaking projects in Arabic handwriting recognition, data deduplication, and large language models.
